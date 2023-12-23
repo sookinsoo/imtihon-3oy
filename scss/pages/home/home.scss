@@ -1,0 +1,45 @@
+@import'./header.scss';
+@import'./section1.scss';
+@import'./section2.scss';
+@import'./section3.scss';
+@import'./section4.scss';
+@import'./section5.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big__container{
+    width: 1400px;
+    height: 7542px;
+    top: -322px;
+    left: 421px;
+    gap: 10px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid;
+}
+
+@media only screen and (max-width: 1024px) {
+    .big__container{
+        width: 1024px;
+        height: 7078px;
+        top: -322px;
+        left: 2561px;
+        background: #FFFFFF;
+        margin: 0 auto;      
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .big__container{
+        width: 360px;
+        height: 8143px;
+        top: -322px;
+        left: 3721px;
+        background: #FFFFFF;    
+    }
+}
